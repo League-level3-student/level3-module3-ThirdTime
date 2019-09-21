@@ -1,6 +1,6 @@
 package _00_Text_Funkifier;
 
-public abstract class SpecialString implements TextFunkifier{
+public class SpecialString implements TextFunkifier{
 	protected String s;
 	
 	public SpecialString(String s) {
@@ -8,6 +8,11 @@ public abstract class SpecialString implements TextFunkifier{
 	}
 	
 	public String toString() {
+		return s;
+	}
+
+	@Override
+	public String funkifyText(String s) {
 		return s;
 	}
 }
