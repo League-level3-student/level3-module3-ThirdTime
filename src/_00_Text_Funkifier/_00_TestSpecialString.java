@@ -1,8 +1,9 @@
 package _00_Text_Funkifier;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
-import org.junit.jupiter.api.Test;
+import static junit.framework.Assert.assertEquals;
+
 
 public class _00_TestSpecialString {
 
